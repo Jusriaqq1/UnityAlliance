@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity & Alliance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <div class="navbar">
+            <div class="toggle-mode" id="toggleMode">🔴</div>
+            <div class="menu-item" id="home"><i class="fas fa-home"></i> Home</div>
+            <div class="menu-item about-us"><i class="fas fa-book"></i> About Us
+                <div class="tooltip">
+                    <p>We are a group dedicated to making a positive difference<br>in our community.<br>With the collaboration of our members and allies,<br>we work tirelessly to provide support<br>to those who need it most. We are proud to be a bridge<br>that connects resources and volunteers with important causes,<br>from food and education programs<br>to health and wellness initiatives.</p>
+                    <br><br>
+                    <div><i class="fab fa-tiktok"></i> @USUARIO</div><br>
+                    <div><i class="fab fa-instagram"></i> @USUARIO</div>
+                </div>
+            </div>
+            <div class="menu-item" id="contributions"><i class="fas fa-hand-holding-heart"></i> Contributions</div>
+        </div>
+    </div>
+
+    <div class="wrapper hidden">
+        <div class="typing-demo">
+            Unity & Alliance.
+        </div>
+    </div>
+
+    <div id="acceptModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Welcome to U&A!</h2>
+            <p>By continuing to use this site, you acknowledge and agree to the storing of cookies on your device. If you do not wish to accept cookies, you should not use this site.</p>
+            <button id="acceptButton">Accept and close</button>
+        </div>
+    </div>
+    
+    <div class="toggle-language bottom-right" id="toggleLanguage">English</div>
+    <div class="info-button bottom-right" id="infoButton"><i class="fas fa-info"></i></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
